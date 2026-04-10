@@ -75,7 +75,7 @@
         (month == 9 && day <=22))
         return "Virgo";
         else if ((month == 9 && day >= 23)||
-        (month == 10 && day >= 22))
+        (month == 10 && day <= 22))
         return "Libra";
         else if ((month == 10 && day >= 23)||
         (month == 11 && day <=21))
