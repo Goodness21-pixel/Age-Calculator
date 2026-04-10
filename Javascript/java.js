@@ -26,9 +26,9 @@
     
     //Total time lived
     const diff = today - birthDay;
-    const totalDays = Math.floor(diff / 1000 * 60 * 60 * 24);
+    const totalDays = Math.floor(diff / (1000 * 60 * 60 * 24));
     const totaWeeks = Math.floor(totalDays / 7);
-    const totalHours = Math.floor(diff / 1000 * 60 * 60);
+    const totalHours = Math.floor(diff / (1000 * 60 * 60));
 
     document.getElementById('totalDays').innerText = totalDays.toLocaleString();
     document.getElementById('totalWeeks').innerText = totaWeeks.toLocaleString();
