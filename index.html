@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculate</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Age Calculator</h1>
+        <p class="subtitle">Enter your date of birth to discover your exact age and more</p>
+        <div class="card">
+            <div class="inputs">
+              <input type="number" id="day" placeholder="day">
+              <input type="number" id="month" placeholder="month">
+              <input type="number" id="year" placeholder="year">
+            </div>
+            <button onclick="calculateAge()">Calculate Age</button>
+            <div class="result-age" id="ageResult"></div>
+        </div>
+        <div class="grid">
+            <div class="mini-card">
+                <h3 id="totalDays"></h3>
+                <p>Total Days lived</p>
+            </div>
+            <div class="mini-card">
+                <h3 id="totalWeeks"></h3>
+                <p>Total Weeks</p>
+            </div>
+            <div class="mini-card">
+                <h3 id="totalHours"></h3>
+                <p>Total Hours</p>
+            </div>
+            <div class="mini-card">
+                <h3 id="nextBirthday"></h3>
+                <p>Days to Birthday</p>
+            </div>
+            <div class="mini-card">
+                <h3 id="zodaic"></h3>
+                <p>Zodaic Sign</p>
+            </div>
+            <div class="mini-card">
+                <h3 id="weekday"></h3>
+                <p>Born On</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="Javascript/java.js"></script>
+</html>
