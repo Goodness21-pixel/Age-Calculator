@@ -4,8 +4,12 @@
     const y = parseInt(document.getElementById('year').value);
     const birthDay = new Date(y,m,d);
     const today = new Date();
-    if(birthDay > today){
+    if(d < 1 || d > 31){
         alert("Invalid birth date");
+        return;
+    }
+        if (m < 1 || m > 12){
+        alert("Please enter a valid month");
         return;
     }
     //Age calculation
